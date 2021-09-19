@@ -12,7 +12,6 @@ namespace Inheritance
                 new Student{FirstName="Ali"},
                 new Person{FirstName="Emre"}
             };
-
             foreach (var person in persons)
             {
                 Console.WriteLine(person.FirstName);
